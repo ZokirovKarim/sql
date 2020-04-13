@@ -11,11 +11,11 @@ namespace sql
     }
     class school
     {
-        public int Id;
-        public string FristName;
-        public string LastName;
-        public string MiddleName;
-        public int age;
+        public int Id {get;set;}
+        public string FristName {get;set;}
+        public string LastName{get;set;}
+        public string MiddleName {get; set; }
+        public int age{get;set;}
        
     }
 }
